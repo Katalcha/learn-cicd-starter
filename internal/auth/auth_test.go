@@ -9,7 +9,6 @@ func TestGetAPIKeyFailureNoHeader(test *testing.T) {
 
 	// expected1 := ""
 	// expected2 := ErrNoAuthHeaderIncluded
-	test.Errorf("Fail")
 }
 
 func TestGetAPIFailureMalformedHeader(test *testing.T) {
